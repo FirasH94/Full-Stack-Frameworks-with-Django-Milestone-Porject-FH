@@ -1,0 +1,90 @@
+[
+   {
+      "pk":1,
+      "model":"products.category",
+      "fields":{
+         "name":"whey_protein",
+         "friendly_name":"Whey Protein"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.category",
+      "fields":{
+         "name":"whey_protein_isolate",
+         "friendly_name":"Whey Protein Isolate"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.category",
+      "fields":{
+         "name":"weight_gainers",
+         "friendly_name":"Weight Gainers"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.category",
+      "fields":{
+         "name":"protein_bars",
+         "friendly_name":"Protein Bars"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.category",
+      "fields":{
+         "name":"pre_workout",
+         "friendly_name":"Pre Workout"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.category",
+      "fields":{
+         "name":"post_workout",
+         "friendly_name":"Post Workout"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.category",
+      "fields":{
+         "name":"bcaa",
+         "friendly_name":"BCAA"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.category",
+      "fields":{
+         "name":"creatine",
+         "friendly_name":"Creatine"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.category",
+      "fields":{
+         "name":"multi_vitamins",
+         "friendly_name":"Multi Vitamins"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.category",
+      "fields":{
+         "name":"fish_oil",
+         "friendly_name":"Fish oil"
+      }
+   },
+   {
+      "pk":11,
+      "model":"products.category",
+      "fields":{
+         "name":"Greens_and_superfoods",
+         "friendly_name":"Greens & Superfoods"
+      }
+   }
+]
