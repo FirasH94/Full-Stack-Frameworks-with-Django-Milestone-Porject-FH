@@ -17,10 +17,10 @@
                 Protein
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Whey Protein</a>
-                <a href="" class="dropdown-item">Whey Protein Isolate</a>
-                <a href="" class="dropdown-item">Weight Gainers</a>
-                <a href="" class="dropdown-item">Protein Bars</a>
+                <a href="{% url 'products' %}?category=whey_protein" class="dropdown-item">Whey Protein</a>
+                <a href="{% url 'products' %}?category=whey_protein_isolate" class="dropdown-item">Whey Protein Isolate</a>
+                <a href="{% url 'products' %}?category=weight_gainers" class="dropdown-item">Weight Gainers</a>
+                <a href="{% url 'products' %}?category=protein_bars" class="dropdown-item">Protein Bars</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 Performance
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Pre Workout</a>
-                <a href="" class="dropdown-item">Post Workout</a>
-                <a href="" class="dropdown-item">BCAA</a>
-                <a href="" class="dropdown-item">Creatine</a>
+                <a href="{% url 'products' %}?category=pre_workout" class="dropdown-item">Pre Workout</a>
+                <a href="{% url 'products' %}?category=post_workout" class="dropdown-item">Post Workout</a>
+                <a href="{% url 'products' %}?category=bcaa" class="dropdown-item">BCAA</a>
+                <a href="{% url 'products' %}?category=creatine" class="dropdown-item">Creatine</a>
             </div>
         </li>
 
@@ -41,9 +41,9 @@
                 Vitamins & Health
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Multi Vitamins</a>
-                <a href="" class="dropdown-item">Fish oil</a>
-                <a href="" class="dropdown-item">Greens & Superfoods</a>
+                <a href="{% url 'products' %}?category=multi_vitamins" class="dropdown-item">Multi Vitamins</a>
+                <a href="{% url 'products' %}?category=fish_oil" class="dropdown-item">Fish oil</a>
+                <a href="{% url 'products' %}?category=Greens_and_superfoods" class="dropdown-item">Greens & Superfoods</a>
             </div>
         </li>
     </ul>

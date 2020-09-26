@@ -83,7 +83,7 @@
       "pk":11,
       "model":"products.category",
       "fields":{
-         "name":"Greens_and_superfoods",
+         "name":"greens_and_superfoods",
          "friendly_name":"Greens & Superfoods"
       }
    }
