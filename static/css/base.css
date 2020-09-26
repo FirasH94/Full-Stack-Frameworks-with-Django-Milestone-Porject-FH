@@ -88,3 +88,9 @@ body {
         padding-top: 164px;
     }
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0rem 0.5rem !important;
+  }
+}
