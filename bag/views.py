@@ -26,7 +26,7 @@ def add_to_bag(request, item_id):
         if item_id in list(bag.keys()):
             if flavour in bag[item_id]['items_by_flavour'].keys():
                 bag[item_id]['items_by_flavour'][flavour] += quantity
-                messages.success(request, f'Updated flavour {flavour.upper()} {product.name} quantity to {bag[item_id]["item_by_size"][size]}')
+                messages.success(request, f'Updated flavour {flavour.upper()} {product.name} quantity to {bag[item_id]["items_by_flavour"][flavour]}')
             else:
                 bag[item_id]['items_by_flavour'][flavour] = quantity
                 messages.success(request, f'Added flavour {flavour.upper()} {product.name} to your bag')
@@ -58,7 +58,7 @@ def adjust_bag(request, item_id):
     if flavour:
         if quantity > 0:
             bag[item_id]['items_by_flavour'][flavour] = quantity
-            messages.success(request, f'Updated flavour {flavour.upper()} {product.name} quantity to {bag[item_id]["item_by_size"][size]}')
+            messages.success(request, f'Updated flavour {flavour.upper()} {product.name} quantity to {bag[item_id]["items_by_flavour"][flavour]}')
         else:
             del bag[item_id]['items_by_flavour'][flavour]
             if not bag[item_id]['items_by_flavour']:
@@ -78,16 +78,17 @@ def adjust_bag(request, item_id):
 
 def remove_from_bag(request, item_id):
     """ Removes the item from the shopping cart """
+
     try:
         product = get_object_or_404(Product, pk=item_id)
         flavour = None
         if 'product_flavour' in request.POST:
             flavour = request.POST['product_flavour']
         bag = request.session.get('bag', {})
-        print(bag)
+
 
         if flavour:
-            print(flavour)
+
             del bag[item_id]['items_by_flavour'][flavour]
             if not bag[item_id]['items_by_flavour']:
                 bag.pop(item_id)
