@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Product, Category
+from products.models import Comment
 
 # Register your models here.
 
@@ -25,5 +26,13 @@ class CategoryAdmin(admin.ModelAdmin):
     )
     
 
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ['subject', 'comment', 'status', 'create_at']
+    list_filter = ['status']
+    readonly_fields = ('subject', 'comment', 'ip', 'user', 'product', 'rate', 'id')
+
+
+
 admin.site.register(Product, ProductAdmin)
+admin.site.register(Comment, CommentAdmin)
 admin.site.register(Category, CategoryAdmin)

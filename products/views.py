@@ -6,7 +6,7 @@ from django.db.models.functions import Lower
 
 from .models import Product, Category
 from .forms import ProductForm
-
+from products.models import CommentForm, Comment
 
 # Create your views here.
 
@@ -66,10 +66,13 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    comments = Comment.objects.filter(product=product_id, status=True)
 
     context = {
         'product': product,
+        'comments': comments,
     }
+    print(len(comments))
 
     return render(request, 'products/product_detail.html', context)
 
@@ -138,3 +141,24 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+
+# Product review code
+def addcomment(request, id):
+    if request.method == 'POST':  # check post
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            data = Comment()  # create relation with model
+            data.subject = form.cleaned_data['subject']
+            data.comment = form.cleaned_data['comment']
+            data.rate = form.cleaned_data['rate']
+            data.ip = request.META.get('REMOTE_ADDR')
+            data.product_id = id
+            current_user = request.user
+            data.user_id = current_user.id
+            data.save()  # save data to table
+            messages.success(request, "Your review has ben sent. Thank you for your interest.")
+
+            return redirect('product_detail', product_id=id) 
+
+    return redirect('product_detail', product_id=id) 
