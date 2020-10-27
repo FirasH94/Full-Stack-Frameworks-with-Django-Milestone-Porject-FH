@@ -32,7 +32,6 @@ class CommentAdmin(admin.ModelAdmin):
     readonly_fields = ('subject', 'comment', 'ip', 'user', 'product', 'rate', 'id')
 
 
-
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Comment, CommentAdmin)
 admin.site.register(Category, CategoryAdmin)
