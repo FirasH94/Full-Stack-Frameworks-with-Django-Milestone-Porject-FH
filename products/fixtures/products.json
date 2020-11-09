@@ -10,7 +10,8 @@
          "category":1,
          "rating":4.6,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT216/image_skuOPT216_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT216_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT216_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -24,7 +25,8 @@
          "category":1,
          "rating":4.7,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_JYM5100048/image_skuJYM5100048_largeImage_X_450_white.jpg",
-         "image":"image_skuJYM5100048_largeImage_X_450_white.jpg"
+         "image":"image_skuJYM5100048_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -38,7 +40,8 @@
          "category":2,
          "rating":4.5,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_DYM6150032/image_skuDYM6150032_largeImage_X_450_white.jpg",
-         "image":"image_skuDYM6150032_largeImage_X_450_white.jpg"
+         "image":"image_skuDYM6150032_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -52,7 +55,8 @@
          "category":1,
          "rating":4.4,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_BSN115/image_skuBSN115_largeImage_X_450_white.jpg",
-         "image":"image_skuBSN115_largeImage_X_450_white.jpg"
+         "image":"image_skuBSN115_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -66,7 +70,8 @@
          "category":1,
          "rating":4.6,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT380/image_skuOPT380_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT380_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT380_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -80,7 +85,8 @@
          "category":2,
          "rating":4.1,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_UNIV2960002/image_skuUNIV2960002_largeImage_X_450_white.jpg",
-         "image":"image_skuUNIV2960002_largeImage_X_450_white.jpg"
+         "image":"image_skuUNIV2960002_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -94,7 +100,8 @@
          "category":2,
          "rating":4.4,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_MPHARM2680174/image_skuMPHARM2680174_largeImage_X_450_white.jpg",
-         "image":"image_skuMPHARM2680174_largeImage_X_450_white.jpg"
+         "image":"image_skuMPHARM2680174_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -108,7 +115,8 @@
          "category":2,
          "rating":4.5,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_NB031/image_skuNB031_largeImage_X_450_white.jpg",
-         "image":"image_skuNB031_largeImage_X_450_white.jpg"
+         "image":"image_skuNB031_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -122,7 +130,8 @@
          "category":3,
          "rating":4.7,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT157/image_skuOPT157_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT157_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT157_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -136,7 +145,8 @@
          "category":3,
          "rating":4.4,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_BSN030/image_skuBSN030_largeImage_X_450_white.jpg",
-         "image":"image_skuBSN030_largeImage_X_450_white.jpg"
+         "image":"image_skuBSN030_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -150,7 +160,8 @@
          "category":3,
          "rating":4.8,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_JYM5210021/image_skuJYM5210021_largeImage_X_450_white.jpg",
-         "image":"image_skuJYM5210021_largeImage_X_450_white.jpg"
+         "image":"image_skuJYM5210021_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -164,7 +175,8 @@
          "category":3,
          "rating":4.6,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_MT4910012/image_skuMT4910012_largeImage_X_450_white.jpg",
-         "image":"image_skuMT4910012_largeImage_X_450_white.jpg"
+         "image":"image_skuMT4910012_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -234,7 +246,8 @@
          "category":5,
          "rating":4.8,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_KAG6190222/image_skuKAG6190222_largeImage_X_450_white.jpg",
-         "image":"image_skuKAG6190222_largeImage_X_450_white.jpg"
+         "image":"image_skuKAG6190222_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -248,7 +261,8 @@
          "category":5,
          "rating":4.6,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT2760072/image_skuOPT2760072_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT2760072_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT2760072_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -262,7 +276,8 @@
          "category":5,
          "rating":4.2,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_UNIV5170058/image_skuUNIV5170058_largeImage_X_450_white.jpg",
-         "image":"image_skuUNIV5170058_largeImage_X_450_white.jpg"
+         "image":"image_skuUNIV5170058_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -276,7 +291,8 @@
          "category":5,
          "rating":3.8,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_COBRA1010032/image_skuCOBRA1010032_largeImage_X_450_white.jpg",
-         "image":"image_skuCOBRA1010032_largeImage_X_450_white.jpg"
+         "image":"image_skuCOBRA1010032_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -290,7 +306,8 @@
          "category":6,
          "rating":4.9,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_JYM5080032/image_skuJYM5080032_largeImage_X_450_white.jpg",
-         "image":"image_skuJYM5080032_largeImage_X_450_white.jpg"
+         "image":"image_skuJYM5080032_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -304,7 +321,8 @@
          "category":6,
          "rating":4.8,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_KAG3460043/image_skuKAG3460043_largeImage_X_450_white.jpg",
-         "image":"image_skuKAG3460043_largeImage_X_450_white.jpg"
+         "image":"image_skuKAG3460043_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -318,7 +336,8 @@
          "category":6,
          "rating":4.6,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_EVL4670036/image_skuEVL4670036_largeImage_X_450_white.jpg",
-         "image":"image_skuEVL4670036_largeImage_X_450_white.jpg"
+         "image":"image_skuEVL4670036_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -332,7 +351,8 @@
          "category":6,
          "rating":4.1,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_MHP5550030/image_skuMHP5550030_largeImage_X_450_white.jpg",
-         "image":"image_skuMHP5550030_largeImage_X_450_white.jpg"
+         "image":"image_skuMHP5550030_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -346,7 +366,8 @@
          "category":7,
          "rating":4.1,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT540108/image_skuOPT540108_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT540108_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT540108_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -360,7 +381,8 @@
          "category":7,
          "rating":4.5,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_BSN1960036/image_skuBSN1960036_largeImage_X_450_white.jpg",
-         "image":"image_skuBSN1960036_largeImage_X_450_white.jpg"
+         "image":"image_skuBSN1960036_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -374,7 +396,8 @@
          "category":7,
          "rating":4.0,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_EVL5490002/image_skuEVL5490002_largeImage_X_450_white.jpg",
-         "image":"image_skuEVL5490002_largeImage_X_450_white.jpg"
+         "image":"image_skuEVL5490002_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -388,7 +411,8 @@
          "category":7,
          "rating":4.3,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_RSP5320034/image_skuRSP5320034_largeImage_X_450_white.jpg",
-         "image":"image_skuRSP5320034_largeImage_X_450_white.jpg"
+         "image":"image_skuRSP5320034_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -416,7 +440,8 @@
          "category":8,
          "rating":4.6,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT540096/image_skuOPT540096_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT540096_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT540096_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -430,7 +455,8 @@
          "category":8,
          "rating":4.2,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_MT1190186/image_skuMT1190186_largeImage_X_450_white.jpg",
-         "image":"image_skuMT1190186_largeImage_X_450_white.jpg"
+         "image":"image_skuMT1190186_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -444,7 +470,8 @@
          "category":8,
          "rating":4.0,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_UNIV530078/image_skuUNIV530078_largeImage_X_450_white.jpg",
-         "image":"image_skuUNIV530078_largeImage_X_450_white.jpg"
+         "image":"image_skuUNIV530078_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -458,7 +485,8 @@
          "category":9,
          "rating":4.8,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_EVL4230011/image_skuEVL4230011_largeImage_X_450_white.jpg",
-         "image":"image_skuEVL4230011_largeImage_X_450_white.jpg"
+         "image":"image_skuEVL4230011_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -472,7 +500,8 @@
          "category":9,
          "rating":4.5,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT2380276/image_skuOPT2380276_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT2380276_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT2380276_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -486,7 +515,8 @@
          "category":9,
          "rating":4.1,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_UNIV020/image_skuUNIV020_largeImage_X_450_white.jpg",
-         "image":"image_skuUNIV020_largeImage_X_450_white.jpg"
+         "image":"image_skuUNIV020_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -500,7 +530,8 @@
          "category":9,
          "rating":4.6,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_JYM5000189/image_skuJYM5000189_largeImage_X_450_white.jpg",
-         "image":"image_skuJYM5000189_largeImage_X_450_white.jpg"
+         "image":"image_skuJYM5000189_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -626,7 +657,8 @@
          "category":3,
          "rating":4.0,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT219/image_skuOPT219_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT219_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT219_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -640,7 +672,8 @@
          "category":2,
          "rating":3.5,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_OPT5410062/image_skuOPT5410062_largeImage_X_450_white.jpg",
-         "image":"image_skuOPT5410062_largeImage_X_450_white.jpg"
+         "image":"image_skuOPT5410062_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -654,7 +687,8 @@
          "category":7,
          "rating":4.1,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_CELLU4460078/image_skuCELLU4460078_largeImage_X_450_white.jpg",
-         "image":"image_skuCELLU4460078_largeImage_X_450_white.jpg"
+         "image":"image_skuCELLU4460078_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -668,7 +702,8 @@
          "category":2,
          "rating":4.3,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_KAG5300012/image_skuKAG5300012_largeImage_X_450_white.jpg",
-         "image":"image_skuKAG5300012_largeImage_X_450_white.jpg"
+         "image":"image_skuKAG5300012_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -682,7 +717,8 @@
          "category":1,
          "rating":4.6,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_MT1490004/image_skuMT1490004_largeImage_X_450_white.jpg",
-         "image":"image_skuMT1490004_largeImage_X_450_white.jpg"
+         "image":"image_skuMT1490004_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    },
    {
@@ -696,7 +732,8 @@
          "category":5,
          "rating":4.0,
          "image_url":"https://store.bbcomcdn.com/images/store/skuimage/sku_EVLEU5970105/image_skuEVLEU5970105_largeImage_X_450_white.jpg",
-         "image":"image_skuEVLEU5970105_largeImage_X_450_white.jpg"
+         "image":"image_skuEVLEU5970105_largeImage_X_450_white.jpg",
+         "has_flavours" : true
       }
    }
 ]
