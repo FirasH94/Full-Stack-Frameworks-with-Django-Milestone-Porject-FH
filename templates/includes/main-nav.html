@@ -42,7 +42,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Vitamins & Health
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
@@ -50,6 +50,11 @@
                 <a href="{% url 'products' %}?category=fish_oil" class="dropdown-item">Fish oil</a>
                 <a href="{% url 'products' %}?category=Greens_and_superfoods" class="dropdown-item">Greens & Superfoods</a>
             </div>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'home_blog' %}" id="blog-link" aria-haspopup="true" aria-expanded="false">
+                Blog
+            </a>
         </li>
     </ul>
 </div>

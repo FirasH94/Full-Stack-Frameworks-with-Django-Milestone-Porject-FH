@@ -122,11 +122,11 @@
 								{% endif %}
 								<form class="review-form" action="{% url 'addcomment' id=product.id %}" method="post">
 									{% csrf_token %}
-									<div class="form-group">
-										<input name="subject" class="input" type="text" placeholder="Your subject" />
+									<div class="form-group col-md-4 text-center">
+										<input name="subject" class="input border-black rounded-0 textinput textInput form-control" type="text" placeholder="Your subject"/>
 									</div>
-									<div class="form-group">
-										<textarea name="comment" class="input" placeholder="Your review"></textarea>
+									<div class="form-group col-md-4 text-center">
+										<textarea name="comment" class="input border-black rounded-0 textinput textInput form-control comment-box" placeholder="Your review"></textarea>
 									</div>
 									<div class="form-group">
 										<div class="input-rating">
@@ -141,7 +141,7 @@
 										</div>
 									</div>
 									{% if user.id is not None %}
-										<button class="primary-btn">Submit</button>
+										<button class="primary-btn btn btn-black rounded-0">Submit</button>
 									{% else %}
 										You must be logged in to post a review
 									{% endif %}
@@ -149,15 +149,15 @@
 							</div>
 
 
-                                <div class="col-md-6">
+                                <div class="col-md-4 col-sm-12">
                                     <div class="product-reviews">
                 
                                         {% for rs in comments %}
-                                            <div class="single-review">
-                                                <div class="review-heading">
-                                                    <div><a href="#"><i class="fa fa-user-o"></i> {{ rs.user.first_name }}</a> </div>
+                                            <div class="single-review card comment-form">
+                                                <div class="review-heading card-body">
+                                                    <div><i class="fa fa-user-o"></i> {{ rs.user.username }} </div>
                                                     <div><b>{{ rs.subject }}</b> </div>
-                                                    <div><a href="#"><i class="fa fa-clock-o"></i> {{ rs.create_at}}</a></div>
+                                                    <div><i class="fa fa-clock-o"></i> {{ rs.create_at}}</div>
 
                                                     <div class="review-rating pull-right">
                                                         <i class="fa fa-star{% if rs.rate < 1 %}-o empty{% endif %}"></i>

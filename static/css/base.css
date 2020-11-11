@@ -362,6 +362,19 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+.review-form {
+    margin-bottom: 20px !important;
+    
+}
+.comment-form {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.comment-box {
+    height: 150px !important;
+    width: 500px !important;
+}
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
