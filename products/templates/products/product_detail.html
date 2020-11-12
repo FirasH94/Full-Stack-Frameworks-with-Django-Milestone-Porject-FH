@@ -11,7 +11,7 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <div class="container-fluid">
+    <div class="container-fluid footer-separater">
         <div class="row product_details_bg">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
                 <div class="product_image_details image-container my-5">
@@ -111,7 +111,7 @@
         </div>
          <div class="row col-12 col-md-12 col-lg-12">
 <!-- Review form section -->
-								<div class="col-md-6">
+								<div class="col-lg-6 col-md-10 review-section">
 								<h4 class="text-uppercase">Write Your Review</h4>
 								{% if messages %}
 									{% for message in messages %}
@@ -122,10 +122,10 @@
 								{% endif %}
 								<form class="review-form" action="{% url 'addcomment' id=product.id %}" method="post">
 									{% csrf_token %}
-									<div class="form-group col-md-4 text-center">
+									<div class="form-group col-md-8 text-center">
 										<input name="subject" class="input border-black rounded-0 textinput textInput form-control" type="text" placeholder="Your subject"/>
 									</div>
-									<div class="form-group col-md-4 text-center">
+									<div class="form-group col-md-8 text-center">
 										<textarea name="comment" class="input border-black rounded-0 textinput textInput form-control comment-box" placeholder="Your review"></textarea>
 									</div>
 									<div class="form-group">
@@ -149,7 +149,7 @@
 							</div>
 
 
-                                <div class="col-md-4 col-sm-12">
+                                <div class="col-lg-4 col-md-10 col-sm-12">
                                     <div class="product-reviews">
                 
                                         {% for rs in comments %}

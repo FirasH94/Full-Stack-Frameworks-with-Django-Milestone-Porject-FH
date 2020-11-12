@@ -373,7 +373,7 @@ input[name='q']::placeholder {
 
 .comment-box {
     height: 150px !important;
-    width: 500px !important;
+    
 }
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -389,6 +389,20 @@ input[name='q']::placeholder {
         padding-top: 164px;
     }
 }
+
+.site-heading {
+    margin-top: 2.5rem !important;
+}
+
+.blog-card {
+    margin-top: 3rem !important;
+}
+
+.footer-separater {
+    padding-bottom: 200px !important;
+}
+
+
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
@@ -448,6 +462,7 @@ input[name='q']::placeholder {
         height: 300px !important;
         width: auto;
     }
+
 }
 
 @media screen and (max-width: 900px) and (min-width: 800px) {
@@ -457,3 +472,18 @@ input[name='q']::placeholder {
     }
 
 }
+
+@media screen and (max-width: 400px) {
+
+    .comment-box {
+        width: 100% !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+.review-section {
+        margin-left: 150px !important;
+    }
+}	
+    
