@@ -226,41 +226,54 @@ Stocks and quantity of products can be reviewed and edited by the admin.
 
 ## Testing
 
+
+
+W3C Markup Validation was used to validate HTML.
+
+W3C CSS validation was used to validate CSS.
+
+The majority of functionality has been tested at each stage of development and the bugs/issues have been resolved, before moving on to another step.
+
 ### Generic/Journey testing:
 
 The following have been tested from a user’s perspective to ensure the web app works as expected:
 
 -	Easy to navigate around the web app as the navigation bar/menu is easily visible on the web app.
 -	Each page of the web app easily recognisable, easy to navigate around and easy to read/understand.
--	The user can read each workout as the info are displayed clearly and in a simple manner.
--	Shows clear understanding to the user that this is a fitness based web app regarding workout planning.
--	The user can easily add a workout or amend a workout as the instructions are clear and simple.
--	The user can easily update and add a category as the instructions are clear and simple.
--	The user can easily remove both a workout and a category.
-
+-   Submit the empty registration form and an alert message pops up asking to fill in the fields. This has been tested for all required fields.
+-   Submit the registration form with username less than 4 characters and a message pops up, "Please lengthen this text to 6 characters or more (you are currently only using 2 characters)".
+-   Submit an incorrect email and an alert message pops up for email validation.
+-   Submit the form with an already existing username and email. An error message will appear mentioning that the credentials exist.
+-   Submit the form with a short password. I receive the error messages of password being too short/too common. Also if I try to submit a numeric password only, I get error message too.
+-   Complete the form with mismatch passwords and an alert message pops up informing me that the passwords do not match.
+-   Submit the form with all inputs valid and verify that a success message appears.
+-   Submit cart checkout while leaving some fields empty and an alert message pops up asking to fill in the fields. This has been tested for all required fields.
+-   Submit the card with wrong payment information and an alert message pops up saying my card details are invalid.
 
 ### Manual Testing
 
 -	Navigation links:
 	Each navigation link has been tested to ensure that it is linked to the correct page. The navigation link has also been tested when viewed on a smaller screen sizes to ensure the functionality is consistent making sure the toggler is activated correctly.
--	Save/add workout/add cateogry buttons:
-	All these buttons have been tested to make sure when a workout is added/update or a category is added/update, the workout database gets updated instantly and the new/correct info is displayed.
--	Cancel buttons:
-	The cancel buttons on the update workout/category pages has been tested to make sure the user returns to the correct page if they no longer want to make amendments.
--	Edit workout/category buttons/page:
-	These buttons have also been testing along with the functionality. The user gets taken to the update workout/category page where they can make amendments.
--	Edit workout page:
-	This page has been tested to make sure when the user clicks on edit workout, the info that exist are pre populated and ready for them to make a change.
--	Edit category page:
-	This page has been tested to make sure when the user clicks on edit category, the muscle group category pre populates the existing name.
--	Button hover:
-	The button with the hover effect have been tested across the web app. The functionality was working correctly and it changes colour when hovered over.
+-	Login/Logout/Register/Read more (blog post):
+    The functionality of these buttons have been all tested to make sure they work correctly as expected.
+-	Adjust bag/Keep shopping:
+	The functionality of these buttons have been all tested to make sure they work correctly as expected. Adjust bag returns me to the cart and Keep shopping returns me to the products page.
+-	Sort dropdown/flavours dropdown/quantity picker:
+	The functionality for these have been tested manually and all work correctly as expected. The products are displayed correctly with the correct flavour and quantity in the cart.
+-	Write a review functionality:
+	The full functionality has been tested for this from the start to end. The review gets submitted with the correct name of user, subjectm review comment and publish date. Also, I am unable to post a review when I am not logged in as a user.
+-	Edit/Delete admin buttons for the product:
+	The functionality of these buttons has been tested and work as expected when logged in as a superuser. These links are not visible for normal users.
+-	Update/Delete shopping cart product functionality:
+	The update works correctly when I change the quantity and the remove button completely removes the product from the cart.
 -	Numeric fields:
-	Numeric fields such as "Sets" and "Reps" have been tested to make sure the user is unable to insert any characters apart from numbers.
+	Numeric fields have been tested to make sure the user is unable to insert any characters apart from numbers.
+-   Search bar:
+    The search bar was tested by inserting a keyword and it dispalyed the correct related products.
+-   Account registeration email/Order confirmation email:
+    Both of these have been tested and I received an email successfully asking me to confirm my email and an email confirming my order.
 
 The web app content was checked and tested to make sure that there was no Grammarly error.
-
-
 
 
 ### Cross browser/device testing:
