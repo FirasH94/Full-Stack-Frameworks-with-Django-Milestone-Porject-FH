@@ -303,20 +303,23 @@ The web app content was checked and tested to make sure that there was no Gramma
 
 The main testing was done throughout carrying the project which means that almost all issues were fixed as the implementation carried forward.
 
-The edit/done/remove icons were not being aligned correctly to the right hand side of each collapsible. This was fixed.
+The footer was overriding some content on the main body page but this was fixed.
 
-The web app title was coming out of the navigation menu when viewed on android due to size issues. This has been fixed.
+There was an error occuring when trying to checkout with products that contain flavours which kept making the payment fail. This was fixed by extending the character number for flavours from 2 in the product models file as this was causing it.
 
 
 ### Left to resolve:
 
-The modal which provides the user a confirmation message on the manage categories page is removing the wrong category. I will be looking into this further to find a work around and make sure the correct categoryy is removed.
+The functionality of "Forgot password" is failing. This will be fixed.
 
+When adding products to cart then logging out and back in, the cart resets and the products do not save. This will also need to be amended.
 
 
 ## Deployment
 
-This project was developed using Gitpod as well as MongoDB to create the database, this was then committed to git and heroku then pushed to GitHhub and Heroku as well through the terminal.
+This project was developed using Gitpod, Heroku as well as AWS, this was then committed to git and heroku and pushed to both through the terminal.
+
+Heroku has been used for the deployment of the site.
 
 To deploy the project on Heroku, I took the following steps:
 
@@ -325,28 +328,42 @@ To deploy the project on Heroku, I took the following steps:
 3.	I also created the Procfile through the terminal.
 4.	I also used the terminal on Gitpod to commit and push the project to Heroku.
 5.	Once the project has been pushed, I added all the necessary Config Vars to make sure the website is deployed and pulling through correctly.
+6.  I have also loaded all the images and static files onto AWS to host the graphical files on the server.
 6.	Once all the steps above have been done, the web app should be ready to view online when clicking on the "View app" button within Heroku.
 
 Please note - On submission the The Development Branch and Master Branch of this project are identical.
 
-The submission URL to the Final version of the website is: https://workout-tracker-python-project.herokuapp.com/
+The submission URL to the Final version of the website is: https://firas-fitness-paradise-django.herokuapp.com
 
+## Deployment from Github to localhost
+1.  Clone / download the repository at https://github.com/FirasH94/Full-Stack-Frameworks-with-Django-Milestone-Porject-FH
+2.  Create a virtual environment with the command "python3 -m venv env".
+3.  Activate the virtual environment by "source env/bin/activate".
+4.  Install required packages by running the command "pip install -r requirements.txt" and run it.
+5.  Run by doing "python manage.py migrate".
+6.  Create admin superuser "python manage.py createsuperuser".
+7.  Then run the command "python manage.py makemigrations".
+8.  Again run the command "python manage.py migrate".
+9.  Finally, to run application: "python manage.py runserver"
+10. This should now run on your local environment successfully.
 
 
 ## Credits
 
 **Content:**
 
--	All the content within the website Has been written by me from scratch.
+-	The content of the products and the blog have been taken from https://www.bodybuilding.com/.
 
 
 **Media:**
 
 -	All the icons used on the website have been taken from material.io.
 
+-   The images of the supplements were taken from https://www.bodybuilding.com/.
+
 **Code:**
 
--	The look and feel of the website was created from scratch by me however I have used https://materializecss.com/ to assist me in the design and implementation of the front-end design.
+-	The look and feel of the website was created from scratch by me with the guide from the course lessons. Furthermore, I also used https://getbootstrap.com/ to aid with the overall navigation and responsiveness of the site as advised.
 
 ## Disclaimer
 
